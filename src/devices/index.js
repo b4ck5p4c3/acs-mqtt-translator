@@ -64,10 +64,10 @@ const dataPacketHandler = (topic, data) => {
 
 };
 
-devices.foreach(device => {
+devices.forEach(device => {
 
   const topicPrefix = `bus/devices/${device.id}/`;
-  device.capabilities.foreach(capability => {
+  device.capabilities.forEach(capability => {
 
     // Control channel
     if (capability.set) {
