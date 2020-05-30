@@ -91,3 +91,4 @@ theming/
 
 # Config
 .env
+devices.js
