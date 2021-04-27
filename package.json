@@ -43,13 +43,14 @@
     }
   },
   "dependencies": {
-    "debug": "^4.1.1",
+    "debug": "^4.3.1",
     "dotenv": "^8.2.0",
-    "mqtt": "^4.1.0"
+    "mqtt": "^4.2.6",
+    "npm-check-updates": "^11.5.3"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
